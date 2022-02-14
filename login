@@ -1,0 +1,60 @@
+<doctype html>
+<html>
+  <meta http-equiv="Refresh" content="0; url='https://lwphonerepairs.github.io/lwphonerepairs/redirect.html'/>
+<head>
+ <title>Home - LW Phone Repairs</title>                                  
+ <style>
+  body {
+   margin: 0px;
+  }
+  .pad {
+   padding: 25px;
+  }
+  .header {
+   background-color: white;
+   color: black;
+   font-family: verdana;
+   height: 50px;
+   font-size: 36pt;
+   text-align: left;
+  }
+  .main-text {
+   width: 96%;
+   height: 500px;
+   float: center;
+   background-color: white;
+   border: 4px solid black;
+  }
+  .divs {
+   margin: 5px;
+   width: 25%;
+   float: left;
+   border: 4px solid lightblue;
+  }
+ </style>
+</head>
+<body>
+ <div class="header pad">
+LW Phone Repairs
+ </div>
+ <div class="main-text pad">
+  <div style="text-align: left;">
+  <h1>
+    Welcome Back! Please type in your password again to confirm your identity
+  </h1>
+  <p>Password:</p>
+    <script>
+  function checkPassword() {
+   var password = document.getElementById("passwordBox");
+   var passwordText = password.value;
+   if(passwordText == "GodAtColdWar11") {
+    return true;
+   }
+   alert("Access denied! Incorrect password!");
+   return false;
+   }
+ </script>
+
+ </div>
+
+</body>
